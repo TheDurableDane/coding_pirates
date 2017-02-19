@@ -5,3 +5,4 @@ This repository contains short scripts that will introduce novice programmers to
 
 ## Content
 * Dice roll: random numbers, plotting
+* Game of Life: if-else, functions, arrays, plotting
