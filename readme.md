@@ -8,3 +8,4 @@ This repository contains short scripts that will introduce novice programmers to
 * Dice roll: random numbers, plotting
 * Game of Life: if-else, functions, arrays, plotting
 * ASCII: strings, lists, for-loops, if-else
+* Image to text converter: imports, RGB, images, read/write to file, nested loops, if-else
