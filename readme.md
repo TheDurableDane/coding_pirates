@@ -11,3 +11,4 @@ This repository contains short scripts that will introduce novice programmers to
 * Image to text converter: imports, RGB, images, read/write to file, nested loops, if-else
 * Hangman: while-loop, functions, nested loops/if-else, user input
 * Guessing a string: random numbers, strings, for-loop, while-loop
+* Sum of natural numbers: for-loop, functions, recursion (careful!)
