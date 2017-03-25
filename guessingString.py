@@ -9,9 +9,10 @@ date: 11mar2017
 import string
 import random
 import time
+import numpy as np
 
 # Streng der skal gættes
-hemmelig_streng = list('Jeg er en pirat. Arrr!')
+hemmelig_streng = list('Thomas')
 
 # Mulige tegn i streng der skal gættes
 mulige_tegn = list(string.ascii_letters + string.punctuation + ' ')
@@ -20,6 +21,8 @@ mulige_tegn = list(string.ascii_letters + string.punctuation + ' ')
 min_streng = ['']*len(hemmelig_streng)
 iterationer = 0
 
+iterationer = 0
+min_streng = ['']*len(hemmelig_streng)
 while min_streng != hemmelig_streng:
     for i in range(len(hemmelig_streng)):
         if min_streng[i] != hemmelig_streng[i]:
