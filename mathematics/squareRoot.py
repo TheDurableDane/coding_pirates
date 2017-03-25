@@ -11,7 +11,7 @@ import math
 
 def my_sqrt(n):
     epsilon = 0.0001                # precision
-    my_sqroot = [3.90234, 5.902]      # "random" starting points
+    my_sqroot = [3.90234, 5.902]    # "random" starting points
     i = 1
     while abs(my_sqroot[i] - my_sqroot[i-1]) > epsilon:
         my_sqroot.append(my_sqroot[i] - (my_sqroot[i]**2 - n)/(2*my_sqroot[i]))
@@ -20,7 +20,8 @@ def my_sqrt(n):
     return my_sqroot[-1]
 
 
-n = 10                         # find square root of this number
+# Find square root of this number
+n = 10
 
 # Compare build-in function and my function
 print("   sqrt(%.3f) = %.20f" % (n, math.sqrt(n)))
