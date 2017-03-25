@@ -19,17 +19,17 @@ def findIndices(word, character):
 
 
 # Ordet der skal gættes
-kodeord = 'Kodeord'
+kodeord = 'Gerrard'
 
 # Antal gange man må gætte forkert
-liv = 1
+liv = 5
 
 # Initialisér variable
 kodeord = list(kodeord.lower())
 bogstaver_forkert = []
 bogstaver_korrekt = []
 for b in kodeord:
-    bogstaver_korrekt.append('x')
+    bogstaver_korrekt.append('-')
 
 # Let the game begin!
 while bogstaver_korrekt != kodeord and liv > 0:
@@ -57,7 +57,7 @@ while bogstaver_korrekt != kodeord and liv > 0:
 
     # Hvis længden af input-strengen er forkert:
     else:
-        print("Gæt kun ét bogstav ad gangen.")
+        print("Gæt kun ét bogstav ad gangen.\n")
 
     time.sleep(2)
 
