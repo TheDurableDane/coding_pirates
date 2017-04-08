@@ -13,3 +13,4 @@ This repository contains short scripts that will introduce novice programmers to
 * Guessing a string: random numbers, strings, for-loop, while-loop
 * Sum of natural numbers: for-loop, functions, recursion (careful!)
 * Square root: functions, math, while-loop, print formatting
+* Computing pi: for loops, functions, lists, plotting, mathematics
