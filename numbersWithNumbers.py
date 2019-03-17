@@ -116,10 +116,13 @@ def write_number(number):
     for i in range(5):
         for j in number:
             s += write(j)[i]
-            s += ' '
+            s += '  '
         s += '\n'
 
     print(s)
 
 
-write_number('144')
+while True:
+    my_string = input("Input number: ")
+    print('')
+    write_number(my_string)
